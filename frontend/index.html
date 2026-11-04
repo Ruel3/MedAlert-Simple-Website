@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="MedAlert keeps your critical medical information ready for emergency staff.">
+  <meta name="theme-color" content="#0d151d">
+  <title>MedAlert | Emergency Medical Risk Profile</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#app">Skip to main content</a>
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#/" aria-label="MedAlert home">
+        <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2 4 7v8c0 7.2 5 12.4 12 15 7-2.600 12-7.800 12-15V7L16 2z" fill="#0e9f8e"/><path d="M14 9h4v5h5v4h-5v5h-4v-5H9v-4h5z" fill="#fff"/></svg>
+        <span>MedAlert</span>
+      </a>
+      <nav class="nav" id="nav" aria-label="Main"></nav>
+    </div>
+  </header>
+  <main id="app" tabindex="-1"></main>
+  <div class="toasts" id="toasts" role="status" aria-live="polite"></div>
+  <footer class="site-footer">
+    <div class="container">
+      <p>MedAlert stores only the facts emergency staff need. It is not a medical record, billing or appointment system.</p>
+    </div>
+  </footer>
+  <noscript><p class="container">MedAlert needs JavaScript to run.</p></noscript>
+  <script src="vendor/jsQR.js"></script>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
